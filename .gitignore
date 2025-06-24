@@ -1,0 +1,25 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Sensitive or local env
+.env
+
+# Terraform lock file (optional)
+.terraform.lock.hcl
+
+# OS or editor specific
+.DS_Store
+*.swp
+
+# Static site files (if not committing)
+index.html
+error.html
+
+# Optional: static asset folders (if auto-generated)
+assets/
+css/
+js/
+
+aws-s3/anish.jpg
